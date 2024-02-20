@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2873509B83E39FA2ABB954E3 /* Pods_navtableapi_navtableapiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEACC4FD5F8C1118FB3719D /* Pods_navtableapi_navtableapiUITests.framework */; };
+		42CC5992A3D9E6DBB78B9C44 /* Pods_navtableapi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF5C57CB760DFB93744867F /* Pods_navtableapi.framework */; };
+		4A1F8AFDAEF62D57055C39BB /* Pods_navtableapiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFA2AFD4C3BD116C41A25A9 /* Pods_navtableapiTests.framework */; };
 		74C675DE2B845767004519FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C675DD2B845767004519FF /* AppDelegate.swift */; };
 		74C675E02B845767004519FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C675DF2B845767004519FF /* SceneDelegate.swift */; };
 		74C675E22B845767004519FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C675E12B845767004519FF /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		74C675F52B845769004519FF /* navtableapiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C675F42B845769004519FF /* navtableapiTests.swift */; };
 		74C675FF2B845769004519FF /* navtableapiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C675FE2B845769004519FF /* navtableapiUITests.swift */; };
 		74C676012B845769004519FF /* navtableapiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C676002B845769004519FF /* navtableapiUITestsLaunchTests.swift */; };
+		74C676102B848CD7004519FF /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C6760F2B848CD7004519FF /* DestinationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E47EBDFD33160C121DBA94D /* Pods-navtableapiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navtableapiTests.debug.xcconfig"; path = "Target Support Files/Pods-navtableapiTests/Pods-navtableapiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E97AB7BC3F5FED7E138AE56 /* Pods-navtableapi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navtableapi.release.xcconfig"; path = "Target Support Files/Pods-navtableapi/Pods-navtableapi.release.xcconfig"; sourceTree = "<group>"; };
 		74C675DA2B845767004519FF /* navtableapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navtableapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C675DD2B845767004519FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74C675DF2B845767004519FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		74C675FA2B845769004519FF /* navtableapiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navtableapiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C675FE2B845769004519FF /* navtableapiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navtableapiUITests.swift; sourceTree = "<group>"; };
 		74C676002B845769004519FF /* navtableapiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navtableapiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74C6760F2B848CD7004519FF /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		77F0CD6D1C77B87F96D4518F /* Pods-navtableapi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navtableapi.debug.xcconfig"; path = "Target Support Files/Pods-navtableapi/Pods-navtableapi.debug.xcconfig"; sourceTree = "<group>"; };
+		8178E4023757CC43FF16B1D6 /* Pods-navtableapi-navtableapiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navtableapi-navtableapiUITests.release.xcconfig"; path = "Target Support Files/Pods-navtableapi-navtableapiUITests/Pods-navtableapi-navtableapiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87CD64571B96BF0BCF59A0B1 /* Pods-navtableapiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navtableapiTests.release.xcconfig"; path = "Target Support Files/Pods-navtableapiTests/Pods-navtableapiTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BF5C57CB760DFB93744867F /* Pods_navtableapi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_navtableapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB577AFA2D61B545561E23C /* Pods-navtableapi-navtableapiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navtableapi-navtableapiUITests.debug.xcconfig"; path = "Target Support Files/Pods-navtableapi-navtableapiUITests/Pods-navtableapi-navtableapiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACEACC4FD5F8C1118FB3719D /* Pods_navtableapi_navtableapiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_navtableapi_navtableapiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFA2AFD4C3BD116C41A25A9 /* Pods_navtableapiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_navtableapiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CC5992A3D9E6DBB78B9C44 /* Pods_navtableapi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1F8AFDAEF62D57055C39BB /* Pods_navtableapiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2873509B83E39FA2ABB954E3 /* Pods_navtableapi_navtableapiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30F11B5A3559EBC9670EC15F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77F0CD6D1C77B87F96D4518F /* Pods-navtableapi.debug.xcconfig */,
+				6E97AB7BC3F5FED7E138AE56 /* Pods-navtableapi.release.xcconfig */,
+				AAB577AFA2D61B545561E23C /* Pods-navtableapi-navtableapiUITests.debug.xcconfig */,
+				8178E4023757CC43FF16B1D6 /* Pods-navtableapi-navtableapiUITests.release.xcconfig */,
+				3E47EBDFD33160C121DBA94D /* Pods-navtableapiTests.debug.xcconfig */,
+				87CD64571B96BF0BCF59A0B1 /* Pods-navtableapiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		74C675D12B845767004519FF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				74C675F32B845769004519FF /* navtableapiTests */,
 				74C675FD2B845769004519FF /* navtableapiUITests */,
 				74C675DB2B845767004519FF /* Products */,
+				30F11B5A3559EBC9670EC15F /* Pods */,
+				8646B1C23A8AFAB31163F6E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +138,7 @@
 				74C675E62B845769004519FF /* Assets.xcassets */,
 				74C675E82B845769004519FF /* LaunchScreen.storyboard */,
 				74C675EB2B845769004519FF /* Info.plist */,
+				74C6760F2B848CD7004519FF /* DestinationViewController.swift */,
 			);
 			path = navtableapi;
 			sourceTree = "<group>";
@@ -127,6 +160,16 @@
 			path = navtableapiUITests;
 			sourceTree = "<group>";
 		};
+		8646B1C23A8AFAB31163F6E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF5C57CB760DFB93744867F /* Pods_navtableapi.framework */,
+				ACEACC4FD5F8C1118FB3719D /* Pods_navtableapi_navtableapiUITests.framework */,
+				FEFA2AFD4C3BD116C41A25A9 /* Pods_navtableapiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C676042B845769004519FF /* Build configuration list for PBXNativeTarget "navtableapi" */;
 			buildPhases = (
+				81D7CDE44A3A3FB68FE7D87A /* [CP] Check Pods Manifest.lock */,
 				74C675D62B845767004519FF /* Sources */,
 				74C675D72B845767004519FF /* Frameworks */,
 				74C675D82B845767004519FF /* Resources */,
+				B94940A5ED56CFFA9119587C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C676072B845769004519FF /* Build configuration list for PBXNativeTarget "navtableapiTests" */;
 			buildPhases = (
+				C33BB77E5ADF45484E2EEEB6 /* [CP] Check Pods Manifest.lock */,
 				74C675EC2B845769004519FF /* Sources */,
 				74C675ED2B845769004519FF /* Frameworks */,
 				74C675EE2B845769004519FF /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C6760A2B845769004519FF /* Build configuration list for PBXNativeTarget "navtableapiUITests" */;
 			buildPhases = (
+				A6E824750F24489875F4A101 /* [CP] Check Pods Manifest.lock */,
 				74C675F62B845769004519FF /* Sources */,
 				74C675F72B845769004519FF /* Frameworks */,
 				74C675F82B845769004519FF /* Resources */,
+				076010A383B10C3AF5416BB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		076010A383B10C3AF5416BB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-navtableapi-navtableapiUITests/Pods-navtableapi-navtableapiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-navtableapi-navtableapiUITests/Pods-navtableapi-navtableapiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-navtableapi-navtableapiUITests/Pods-navtableapi-navtableapiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D7CDE44A3A3FB68FE7D87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-navtableapi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E824750F24489875F4A101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-navtableapi-navtableapiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94940A5ED56CFFA9119587C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-navtableapi/Pods-navtableapi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-navtableapi/Pods-navtableapi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-navtableapi/Pods-navtableapi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33BB77E5ADF45484E2EEEB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-navtableapiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74C675D62B845767004519FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 				74C675E22B845767004519FF /* ViewController.swift in Sources */,
 				74C675DE2B845767004519FF /* AppDelegate.swift in Sources */,
 				74C675E02B845767004519FF /* SceneDelegate.swift in Sources */,
+				74C676102B848CD7004519FF /* DestinationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +589,13 @@
 		};
 		74C676052B845769004519FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F0CD6D1C77B87F96D4518F /* Pods-navtableapi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = navtableapi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,11 +618,13 @@
 		};
 		74C676062B845769004519FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E97AB7BC3F5FED7E138AE56 /* Pods-navtableapi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = navtableapi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,6 +647,7 @@
 		};
 		74C676082B845769004519FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E47EBDFD33160C121DBA94D /* Pods-navtableapiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +667,7 @@
 		};
 		74C676092B845769004519FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CD64571B96BF0BCF59A0B1 /* Pods-navtableapiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +687,7 @@
 		};
 		74C6760B2B845769004519FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB577AFA2D61B545561E23C /* Pods-navtableapi-navtableapiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +705,7 @@
 		};
 		74C6760C2B845769004519FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8178E4023757CC43FF16B1D6 /* Pods-navtableapi-navtableapiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

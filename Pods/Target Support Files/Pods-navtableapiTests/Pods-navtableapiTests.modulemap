@@ -1,0 +1,6 @@
+framework module Pods_navtableapiTests {
+  umbrella header "Pods-navtableapiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
